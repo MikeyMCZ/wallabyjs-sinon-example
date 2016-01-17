@@ -8,4 +8,6 @@ define(function (require) {
         };
 
     }
+
+    return EventHandler;
 });

@@ -24,7 +24,7 @@ define(function (require) {
             it('calls processor when event is received', function () {
                 eventHandler.subscribe();
 
-                expect(eventProcessor.process).toHaveBeenCalled();
+                expect(eventProcessor.process.called).toBeTruthy();
             });
         });
     });
